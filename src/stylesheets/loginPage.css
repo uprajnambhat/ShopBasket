@@ -1,0 +1,16 @@
+.LoginStyle {
+  text-align: center;
+  color: Maroon;
+  line-height: 32px;
+}
+
+.FormStyle input {
+  margin: 8px;
+  color: rgb(92, 17, 122);  
+}
+
+.FormStyle button {
+  margin: 10px;
+  color: rgb(92, 17, 122);
+  border: 1px solid maroon;
+}

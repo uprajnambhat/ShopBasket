@@ -1,0 +1,49 @@
+.shoppingCartStyle {
+  color: Maroon;
+}
+.cardImgStyle {
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  object-fit: fill;
+  object-position: center;
+  filter: brightness(70%);
+}
+
+.cartStyle {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.cartCardStyle {
+  color: Maroon;
+}
+
+.symbolsStyle {
+  font-family: cursive;
+  display: flex;
+  justify-content: space-between;
+}
+
+.symbolsStyle > p {
+  font-size: 18px;
+  color: rgb(92, 17, 122);
+}
+
+.symbolsStyle button {
+  display: flex;
+  background-color: transparent;
+  color: Maroon;
+  border: 1px solid Maroon;
+  padding-top: 0.5px;
+  padding-bottom: 0.5px;
+  font-size: 25px;
+}
+
+.symbolsStyle button:hover,
+.cartButtons button:hover {
+  background-color: rgb(92, 17, 122);
+}
